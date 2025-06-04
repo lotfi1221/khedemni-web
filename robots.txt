@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://lotfi1221.github.io/khedemni-web/sitemap.xml 
