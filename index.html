@@ -1,67 +1,82 @@
 <!DOCTYPE html>
-<html lang="ar" dir="rtl">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>خدمني - تطبيق الخدمات المنزلية</title>
-    <style>
-        body {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            margin: 0;
-            padding: 20px;
-            background-color: #f5f5f5;
-            color: #333;
-        }
-        .container {
-            max-width: 800px;
-            margin: 0 auto;
-            background-color: white;
-            padding: 20px;
-            border-radius: 8px;
-            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-        }
-        h1 {
-            color: #2c3e50;
-            text-align: center;
-        }
-        .app-info {
-            margin-top: 20px;
-        }
-        .app-info p {
-            line-height: 1.6;
-        }
-        .download-links {
-            margin-top: 30px;
-            text-align: center;
-        }
-        .download-links a {
-            display: inline-block;
-            margin: 10px;
-            padding: 10px 20px;
-            background-color: #3498db;
-            color: white;
-            text-decoration: none;
-            border-radius: 5px;
-        }
-        .download-links a:hover {
-            background-color: #2980b9;
-        }
-    </style>
+    <title>Khidmni</title>
+    <link rel="stylesheet" href="style.css"> <!-- We will create style.css later -->
 </head>
 <body>
-    <div class="container">
-        <h1>خدمني - تطبيق الخدمات المنزلية</h1>
-        
-        <div class="app-info">
-            <p>مرحباً بكم في موقع تطبيق خدمني، التطبيق الرائد في مجال الخدمات المنزلية.</p>
-            <p>خدمني هو تطبيق يربط بين مقدمي الخدمات المنزلية والعملاء، مما يوفر حلاً سريعاً وموثوقاً لجميع احتياجاتكم المنزلية.</p>
+    <header>
+        <div>
+            <img src="logo.png" alt="Khidmni Logo"> <!-- Placeholder for logo -->
+            <h1>خدمتي</h1>
+            <p>Khidmni</p>
         </div>
+        <nav>
+            <a href="#">العربية</a>
+            <a href="#">English</a>
+        </nav>
+    </header>
 
-        <div class="download-links">
-            <a href="https://play.google.com/store/apps/details?id=com.phone.nafedliapp" target="_blank">
-                تحميل من متجر Google Play
-            </a>
+    <section class="hero">
+        <h2>خدمني، خدمني، الشطيق الذي يوصالك ما<br>من ما مننجاجه من خدمات منزلية يومية</h2>
+        <p>Khidmni offers you a convenient solution to handle<br>your everyday home service needs without leaving<br>your home.</p>
+        <button>تحميل التطبيق</button>
+    </section>
+
+    <section class="how-it-works">
+        <h2>كيف يعمل التطبيق</h2>
+        <div class="steps">
+            <div class="step">
+                <img src="step1.png" alt="Step 1"> <!-- Placeholder -->
+                <p>بود حماه سك يمر السان</p>
+            </div>
+            <div class="step">
+                <img src="step2.png" alt="Step 2"> <!-- Placeholder -->
+                <p>حيد الصهحح موفق</p>
+            </div>
+            <div class="step">
+                <img src="step3.png" alt="Step 3"> <!-- Placeholder -->
+                <p>افر، صديقة البنسة</p>
+            </div>
         </div>
-    </div>
+        <img src="app-screenshots.png" alt="App Screenshots"> <!-- Placeholder -->
+    </section>
+
+    <section class="join-us">
+        <div>
+            <h2>استرك كحزود خدمة</h2>
+            <p>Join as a provider</p>
+            <button>اتضم انينا</button>
+        </div>
+        <div>
+            <h2>اشترك كم خددة</h2>
+            <p>Join as a provider</p>
+        </div>
+    </section>
+
+    <section class="contact">
+        <h2>اتصل بنا</h2>
+        <form>
+            <div>
+                <label for="name1">الاسم</label>
+                <input type="text" id="name1">
+            </div>
+            <div>
+                <label for="name2">الاسم</label>
+                <input type="text" id="name2">
+            </div>
+            <div>
+                <label for="email">الدود افتحنوني</label>
+                <input type="email" id="email">
+            </div>
+            <button type="submit">ارسال</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>© 2025 Khidmni. All جمنح الحفاة جمع</p>
+    </footer>
 </body>
-</html>
+</html> 
